@@ -3,8 +3,12 @@
 #include <iostream>
 #include <string>
 
-// TODO 5: Include MathFunctions.h
 #include "TutorialConfig.h"
+
+// TODO 5: Include MathFunctions.h
+#include "MathFunctions.h"
+using namespace mathfunctions;
+
 
 int main(int argc, char* argv[])
 {
@@ -23,7 +27,7 @@ int main(int argc, char* argv[])
   const double outputValue = mathfunctions::sqrt(inputValue);
 
   // calculate square root
-  const double outputValue = sqrt(inputValue);
+  // const double outputValue = sqrt(inputValue);
   std::cout << "The square root of " << inputValue << " is " << outputValue
             << std::endl;
   return 0;

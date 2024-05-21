@@ -19,6 +19,6 @@ namespace mathfunctions
         return std::sqrt(x);
 #endif
         // Otherwise, use std::sqrt.
-        return detail::mysqrt(x);
+        // return detail::mysqrt(x);
     }
 }
